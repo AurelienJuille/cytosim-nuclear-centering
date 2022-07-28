@@ -3,7 +3,7 @@ This is the data set we used for the analysis detailed in this paper : LINK TO P
 You will also find the scripts we used to generate and analyse it.
 
 ### **GET STARTED**
-##### Installing Cytosim
+#### Installing Cytosim
 If you want to reproduce our experiments or use our scripts to do your own, here is how you should get started :
 
 First of all, you will need to install Cytosim. If you are using Linux or MacOS, this shouldn't be a problem. 
@@ -26,5 +26,10 @@ chmod 701 <your inaccessible file/directory>
 
 Is this doesn't work, please look at Cytosim's more detailed documentation [here](https://gitlab.com/f-nedelec/cytosim)
 
-##### Using our scripts
-Now you have installed Cytosim, you can
+#### Using our scripts
+Now you have installed Cytosim, you can now go back to Cytosim's parent directory (or anywhere outside Cytosim's root folder) and download our scripts with this :
+```
+cd ../
+git clone https://github.com/AurelienJuille/nuclear-centering-cytosim
+```
+
