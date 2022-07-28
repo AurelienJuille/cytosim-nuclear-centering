@@ -1,11 +1,13 @@
+## **Cytosim Nuclear Centering**
+
 This is the data set we used for the analysis detailed in this paper : LINK TO PAPER
 
 You will also find the scripts we used to generate and analyse it.
 
 If you only want to take a look at our data and the scripts we used to analyse and generate it, you will find everything in the DATA, Scripts and Python folders. If you want to reproduce our experiments or use our scripts to do your own, here is how you should get started :
 
-### **GET STARTED**
-#### Installing Cytosim
+## **Get Started**
+### Installing Cytosim
 First of all, you will need to install Cytosim. If you are using Linux or MacOS, this shouldn't be a problem. 
 If you are on Windows, we recommand installing Ubuntu from the Microsoft Store.
 
@@ -26,7 +28,7 @@ chmod 701 <your inaccessible file/directory>
 
 Is this doesn't work, please look at Cytosim's more detailed documentation [here](https://gitlab.com/f-nedelec/cytosim)
 
-#### Installing our nuclear centering helper
+### Installing our nuclear centering helper
 Now you have installed Cytosim, you can now go back to Cytosim's parent directory (or anywhere outside Cytosim's root folder) and download our scripts with this :
 ```
 cd ../
@@ -38,4 +40,4 @@ cd cytosim-nuclear-centering
 python3.8 GUI.py
 ```
 
-#### Using the GUI
+### Using the GUI
