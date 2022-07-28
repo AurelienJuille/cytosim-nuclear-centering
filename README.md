@@ -6,7 +6,7 @@ You will also find the scripts we used to generate and analyse it.
 
 If you only want to take a look at our data and the scripts we used to analyse and generate it, you will find everything in the DATA, Scripts and Python folders. If you want to reproduce our experiments or use our scripts to do your own, here is how you should get started :
 
-## **Get Started**
+## **Getting Started**
 ### Installing Cytosim
 First of all, you will need to install Cytosim. If you are using Linux or MacOS, this shouldn't be a problem. 
 If you are on Windows, we recommand installing Ubuntu from the Microsoft Store.
