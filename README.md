@@ -30,6 +30,10 @@ Is this doesn't work, please look at Cytosim's more detailed documentation [here
 Now you have installed Cytosim, you can now go back to Cytosim's parent directory (or anywhere outside Cytosim's root folder) and download our scripts with this :
 ```
 cd ../
-git clone https://github.com/AurelienJuille/nuclear-centering-cytosim
+git clone https://github.com/AurelienJuille/cytosim-nuclear-centering
 ```
-
+Then you can start our GUI with this command :
+```
+cd cytosim-nuclear-centering
+python3.8 GUI.py
+```
