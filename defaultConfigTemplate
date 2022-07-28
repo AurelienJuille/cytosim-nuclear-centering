@@ -1,5 +1,4 @@
-% Nuclear centering S.pombe
-% Phong Tran, May 4, 2022
+% Nuclear centering
 % NOTE: parameters use units of picoNewton, micrometer, second
 
 set simul pombe
