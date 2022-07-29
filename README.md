@@ -4,7 +4,10 @@ This is the data set we used for the analysis detailed in this paper : LINK TO P
 
 You will also find the scripts we used to generate and analyse it.
 
-If you only want to take a look at our data and the scripts we used to analyse and generate it, you will find everything in the DATA, Scripts and Python folders. If you want to reproduce our experiments or use our scripts to do your own, here is how you should get started :
+![](https://github.com/AurelienJuille/cytosim-nuclear-centering/blob/main/image0001.png?raw=true)
+
+If you only want to take a look at our data and the scripts we used to analyse and generate it, you will find everything in the DATA, Scripts and Python folders.
+If you want to reproduce our experiments or use our scripts to do your own, here is how you should get started :
 
 ## **Getting Started**
 ### Installing Cytosim
