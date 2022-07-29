@@ -1,0 +1,59 @@
+% Cytosim property file, pid 11988
+% Sat Jul 23 16:24:44 2022
+
+set simul pombe
+{
+ time_step            = 0.1;
+ viscosity            = 0.9;
+ precondition         = 0;
+ random_seed          = 1339345143;
+ display              = (window_size=1024,256);
+}
+
+set space cell
+{
+ property_number      = 1;
+ shape                = capsule;
+ display              = (color=0xFFFFFF33, 0x11111188; visible=3;);
+}
+
+set fiber microtubule
+{
+ property_number      = 1;
+ rigidity             = 30;
+ segmentation         = 0.5;
+ min_length           = 0.5;
+ persistent           = 1;
+ viscosity            = 0.9;
+ confine              = 1, 200, cell;
+ activity             = dynamic;
+ display              = (line_width=5; plus_end=15; minus_end=15;);
+ growing_speed        = 0.0437, 0;
+ growing_force        = 1.7, inf;
+ hydrolysis_rate      = 0.12, 0;
+ shrinking_speed      = -0.1465, 0;
+ rebirth_rate         = 1, 0;
+}
+
+set sphere envelope
+{
+ property_number      = 1;
+ viscosity            = 0.9;
+ point_mobility       = 0.05;
+ confine              = 4, 200, cell;
+ display              = (color=0x0000FF55; size=12; style=15);
+}
+
+set bundle microtubule_bundle
+{
+ property_number      = 1;
+ stiffness            = 1000;
+ overlap              = 0.5;
+}
+
+set nucleus noyau
+{
+ property_number      = 1;
+ stiffness            = 200;
+}
+
