@@ -18,6 +18,7 @@ You can then execute these commands in your shell to install cytosim:
 ```
 git clone https://gitlab.com/f-nedelec/cytosim
 ```
+By default, Cytosim's simulations dimensionality is 2D. 
 Before compiling Cytosim, if you want your simulations to be 3D, go to src/math/dim.h and set your desired simulation dimensionality in it. Then :
 ```
 cd cytosim
